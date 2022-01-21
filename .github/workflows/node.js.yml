@@ -33,7 +33,7 @@ jobs:
 ---
 
 name: Node CI
-
+    needs: build
 on: [push]
 
 jobs:
